@@ -1,0 +1,57 @@
+#workflow {
+	position: relative;
+	margin-bottom: 207px;
+
+	#logo-name {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 0;
+	}
+
+	#workflow-patterns {
+		position: absolute;
+		top: -60px;
+		right: -44px;
+		z-index: -1;
+	}
+
+	.scroll-label {
+		position: absolute;
+		right: 0px;
+		bottom: 13px;
+	}
+
+	#titled-description {
+		display: flex;
+		flex-direction: column;
+		gap: 13px;
+		position: absolute;
+		left: 0px;
+		bottom: 13px;
+
+		#title {
+			line-height: initial;
+			font-size: 59px;
+		}
+
+		#citation-div {
+			max-width: 647px;
+			position: relative;
+
+			.floating-quotes {
+				position: absolute;
+			}
+
+			#open-quote {
+				top: -18px;
+				left: -43px;
+			}
+
+			#close-quote {
+				right: 30%;
+				bottom: -18px;
+			}
+		}
+	}
+}

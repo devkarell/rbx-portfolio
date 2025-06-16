@@ -1,0 +1,23 @@
+@use './hero.scss';
+@use './workflow';
+@use './projects';
+
+.narrative-sections {
+	width: 100%;
+	height: 880px;
+	// margin-bottom: 96px;
+
+	.paragraph {
+		font-weight: 300;
+		color: #bfbfbf;
+		text-align: start;
+		font-size: 21px;
+	}
+
+	.scroll-label {
+		font-weight: 300;
+		color: #bfbfbf;
+		text-align: start;
+		font-size: 18px;
+	}
+}
