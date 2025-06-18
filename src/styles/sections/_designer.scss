@@ -1,0 +1,75 @@
+#designer-mockups {
+	position: relative;
+	margin-bottom: 200px;
+
+	#title-div {
+		display: flex;
+		flex-direction: column;
+		// gap: 12px;
+		align-items: start;
+		text-align: start;
+		position: relative;
+
+		#narrative-ask {
+			position: absolute;
+			top: -10px;
+			left: 0;
+			color: #3176ff;
+			font-weight: 800;
+			font-size: 33px;
+			text-align: start;
+			rotate: -11deg;
+		}
+
+		#title {
+			font-family: 'Karantina', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+				Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-size: 272px;
+			font-weight: bold;
+			background: #f2f2f2;
+			background: linear-gradient(
+				180deg,
+				rgba(242, 242, 242, 1) 41%,
+				rgba(255, 255, 255, 1) 61%,
+				rgba(98, 98, 98, 0) 100%
+			);
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+
+	#designer-schematic {
+		position: absolute;
+		bottom: -25%;
+		left: 8%;
+		width: 100%;
+		z-index: -1;
+	}
+
+	.scroll-label {
+		position: absolute;
+		right: 0;
+		bottom: 13px;
+	}
+
+	.floating-tags {
+		font-size: 112px;
+		position: absolute;
+		bottom: -25%;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	#bolder-tag {
+		font-weight: 700;
+		rotate: -17deg;
+	}
+
+	#light-tag {
+		font-family: 'Sometype Mono', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu;
+		font-weight: normal;
+		rotate: 8deg;
+		left: 5%;
+	}
+}

@@ -26,12 +26,24 @@
 		width: 100%;
 
 		.mockup-filler {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			flex: none;
 			width: 469px;
 			height: 250px;
-
 			border-radius: 26px;
-			background-color: #373737;
+
+			.project-mockup {
+				flex: none;
+				width: 100%;
+				height: auto;
+				object-fit: contain;
+			}
+
+			#scifi {
+				width: 150%;
+			}
 		}
 
 		.linear-arrow-design {

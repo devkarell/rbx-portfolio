@@ -1,0 +1,55 @@
+#end-cta {
+	margin-bottom: 250px;
+	position: relative;
+
+	#heading {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		#title {
+			font-size: 142px;
+			font-weight: 800;
+			text-align: start;
+			background: linear-gradient(180deg, #f2f2f2 60%, rgba(255, 255, 255, 0.5) 81%, rgba(0, 0, 0, 0) 100%);
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.subtitle {
+			font-size: 50px;
+			font-weight: 600;
+			text-align: start;
+			background: linear-gradient(180deg, #f2f2f2 60%, rgba(255, 255, 255, 0.5) 81%, rgba(0, 0, 0, 0) 100%);
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			text-transform: lowercase;
+		}
+	}
+
+	#full-cta-bg {
+		width: 80%;
+		position: absolute;
+		bottom: 0;
+		z-index: -1;
+	}
+}
+
+#thank-title {
+	font-size: 196px;
+	font-weight: 800;
+	text-align: center;
+	color: white;
+	font-family: 'Sora';
+	text-transform: uppercase;
+}
+
+#gradient {
+	position: absolute;
+	width: 785px;
+	z-index: -3;
+	bottom: 350px;
+	right: -20%;
+	rotate: 30deg;
+}
